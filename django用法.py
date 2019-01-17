@@ -1,4 +1,12 @@
 """
+创建项目：
+    conda activate xxxxx
+    pip install django==1.8
+    django-admin startproject xxxxxx
+    启动1：
+        python manage.py  runserver
+    启动2：
+        pycharm 启动，setting 中配置python 解释器，manage 配置参数：runserver
 路由系统: urls
     创建app：
         app：负责一个具体业务或者一类具体业务的模块
